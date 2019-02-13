@@ -6,6 +6,7 @@ $(document).ready(function() {
 
     $("#info").show();
     $("#error").hide();
+    $("#result").val('-');
 
     $.ajax({
       type: "POST",
