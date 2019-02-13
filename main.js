@@ -11,7 +11,7 @@ $(document).ready(function() {
     $.ajax({
       type: "POST",
       data: info,
-      url: "http://localhost:8085/endponitphp/main.php",
+      url: "main.php",
       success: function(msg){
         $("#info").hide();
         var result = JSON.parse(msg);
